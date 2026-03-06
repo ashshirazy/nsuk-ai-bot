@@ -1,0 +1,13 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+.container { width: 400px; height: 600px; background: white; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); display: flex; flex-direction: column; overflow: hidden; }
+.header { background: #006400; color: white; padding: 20px; text-align: center; }
+.university-logo { width: 60px; height: auto; margin-bottom: 10px; }
+.suggestions { display: flex; gap: 5px; padding: 10px; background: #eee; overflow-x: auto; }
+.suggestions button { padding: 5px 10px; border-radius: 20px; border: none; background: #006400; color: white; cursor: pointer; white-space: nowrap; font-size: 12px; }
+.chat-box { flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; background: #fafafa; }
+.message { padding: 10px 15px; border-radius: 15px; max-width: 80%; line-height: 1.4; font-size: 14px; }
+.user { background: #006400; color: white; align-self: flex-end; border-bottom-right-radius: 2px; }
+.bot { background: #e9ecef; color: #333; align-self: flex-start; border-bottom-left-radius: 2px; }
+.input-area { padding: 15px; display: flex; border-top: 1px solid #ddd; gap: 10px; }
+#user-input { flex: 1; border: 1px solid #ddd; padding: 10px; border-radius: 25px; outline: none; }
+.input-area button { background: #006400; color: white; border: none; padding: 10px 15px; border-radius: 50%; cursor: pointer; }
